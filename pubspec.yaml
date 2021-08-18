@@ -1,0 +1,40 @@
+name: ridercompanion
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_size_text:
+  cached_network_image: ^3.1.0
+  flutter_rating_bar:
+  font_awesome_flutter:
+#  geolocator:
+  google_fonts: ^2.1.0
+#  google_maps_flutter: ^2.0.6
+#  google_maps_flutter_web: ^0.3.0+3
+#  google_mobile_ads: ^0.13.2
+#  intl:
+  page_transition:
+  timeago:
+  url_launcher:
+
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/audios/
+
+  fonts:
+    - family: 'Monofett'
+      fonts:
+        - asset: fonts/Monofett-Regular.ttf
